@@ -85,10 +85,10 @@
 
         MOUSE {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &kp LS(UNDERSCORE)  &kp LS(MINUS)
-&trans  &kp Q         &kp S         &kp E         &kp R         &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp LS(SEMICOLON)   &kp LS(SQT)
-&trans  &trans        &trans        &trans        &trans        &trans                          &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp N2
-                      &trans        &trans        &trans        &trans        &trans    &trans  &trans                      &trans
+&trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &kp LS(UNDERSCORE)  &kp LS(MINUS)
+&trans          &kp Q         &kp S         &kp E         &kp R         &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp LS(SEMICOLON)   &kp LS(SQT)
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans                          &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp N2
+                              &trans        &trans        &trans        &trans        &trans    &trans  &trans                      &trans
             >;
         };
 
