@@ -45,10 +45,10 @@
 
         default_layer {
             bindings = <
-&kp ESCAPE  &kp Q             &kp W      &kp E             &kp R                                   &kp T                                      &kp Y        &kp U  &kp I         &kp O       &kp P          &kp BACKSPACE
-&kp TAB     &kp A             &kp S      &kp D             &kp F                                   &kp G                                      &kp H        &kp J  &kp K         &kp L       &kp SEMICOLON  &kp SQT
-&kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C             &kp V                                   &kp B                                      &kp N        &kp M  &kp COMMA     &kp PERIOD  &kp SLASH      &lt 5 RIGHT_SHIFT
-                              &kp LCTRL  &kp LEFT_COMMAND  &mt LC(LG(LEFT_CONTROL)) LANG_HIRAGANA  &lt 4 SPACE  &lt 5 LANG2    &kp BACKSPACE  &lt 2 ENTER         &lt 5 ESCAPE
+&kp ESCAPE  &kp Q             &kp W      &kp E             &kp R                                &kp T                                      &kp Y        &kp U  &kp I         &kp O       &kp P          &kp BACKSPACE
+&kp TAB     &kp A             &kp S      &kp D             &kp F                                &kp G                                      &kp H        &kp J  &kp K         &kp L       &kp SEMICOLON  &kp SQT
+&kp LSHFT   &mt LEFT_SHIFT Z  &kp X      &kp C             &kp V                                &kp B                                      &kp N        &kp M  &kp COMMA     &kp PERIOD  &kp SLASH      &lt 5 RIGHT_SHIFT
+                              &kp LCTRL  &kp LEFT_COMMAND  &mt LC(LG(LEFT_CONTROL)) LANGUAGE_4  &lt 4 SPACE  &lt 5 LANG2    &kp BACKSPACE  &lt 2 ENTER         &lt 5 ESCAPE
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -85,10 +85,10 @@
 
         MOUSE {
             bindings = <
-&trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &kp LS(UNDERSCORE)  &kp LS(MINUS)
-&trans          &kp Q         &kp S         &kp E         &kp R         &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp LS(SEMICOLON)   &kp LS(SQT)
-&kp LEFT_SHIFT  &trans        &trans        &trans        &trans        &trans                          &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp N2
-                              &trans        &trans        &trans        &trans        &trans    &trans  &trans                      &trans
+&trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &kp LS(UNDERSCORE)  &kp LS(MINUS)
+&trans          &kp Q         &kp S         &kp E         &kp R             &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp LS(SEMICOLON)   &kp LS(SQT)
+&kp LEFT_SHIFT  &trans        &trans        &trans        &trans            &trans                          &trans        &trans        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW     &kp N2
+                              &trans        &trans        &kp LEFT_CONTROL  &trans        &trans    &trans  &trans                      &trans
             >;
         };
 
