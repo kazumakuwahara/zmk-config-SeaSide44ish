@@ -85,18 +85,18 @@
 
         MOUSE {
             bindings = <
-&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &trans  &trans    &trans    &trans    &trans  &kp N0
-&trans  &kp Q         &kp S         &kp E         &kp R         &kp T                           &trans  &mkp MB1  &mkp MB2  &mkp MB2  &trans  &kp N1
-&trans  &trans        &trans        &trans        &trans        &trans                          &trans  &trans    &trans    &trans    &trans  &kp N2
-                      &trans        &trans        &trans        &trans        &trans    &trans  &trans            &trans
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9   &kp NUMBER_0    &kp LS(UNDERSCORE)  &kp LS(MINUS)
+&trans  &kp Q         &kp S         &kp E         &kp R         &kp T                           &trans        &mkp MB1      &mkp MB2       &mkp MB2        &kp LS(SEMICOLON)   &kp LS(SQT)
+&trans  &trans        &trans        &trans        &trans        &trans                          &trans        &trans        &kp LS(COMMA)  &kp LS(PERIOD)  &kp LS(SLASH)       &kp N2
+                      &trans        &trans        &trans        &trans        &trans    &trans  &trans                      &trans
             >;
         };
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &trans          &trans           &kp N0
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &kp UP_ARROW    &trans           &kp N1
-&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &kp DOWN  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp N2
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &kp LS(LEFT_BRACKET)  &kp LS(RIGHT_BRACKET)  &kp LS(NON_US_BACKSLASH)
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &trans    &kp UP_ARROW          &trans                 &kp N1
+&trans  &trans  &trans  &trans  &trans  &trans                                          &trans            &trans  &kp DOWN  &kp DOWN_ARROW        &kp RIGHT_ARROW        &kp N2
                 &trans  &trans  &trans  &kp LS(LG(N5))  &kp LS(LG(N4))    &kp LC(DOWN)  &kp LC(UP_ARROW)          &trans
             >;
         };
