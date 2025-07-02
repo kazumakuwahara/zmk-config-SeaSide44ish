@@ -65,10 +65,10 @@
 
         NUM {
             bindings = <
-&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &kp N7        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp KP_NUMBER_0  &kp N0
-&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &kp NUMBER_4  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp SLASH        &kp N1
-&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &kp NUMBER_1  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON        &kp N2
-                &trans  &trans   &trans   &trans   &trans    &trans  &kp NUMBER_0                   &kp PERIOD
+&trans  &trans  &kp F9  &kp F10  &kp F11  &kp F12                    &trans  &kp NUMBER_7  &kp N8        &kp N9        &kp N0     &trans
+&trans  &trans  &kp F5  &kp F6   &kp F7   &kp F8                     &trans  &kp N4        &kp NUMBER_5  &kp N6        &kp SLASH  &trans
+&trans  &trans  &kp F1  &kp F2   &kp F3   &kp F4                     &trans  &kp N1        &kp NUMBER_2  &kp NUMBER_3  &kp COLON  &trans
+                &trans  &trans   &trans   &trans   &trans    &trans  &trans                &kp PERIOD
             >;
         };
 
@@ -94,10 +94,10 @@
 
         SCROLL {
             bindings = <
-&trans          &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4                                 &trans       &trans  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
-&trans          &trans  &trans  &trans  &trans        &trans                                       &trans       &trans  &trans          &kp UP_ARROW      &kp GRAVE          &kp N1
-&kp LEFT_SHIFT  &trans  &trans  &trans  &trans        &kp LA(LEFT_CONTROL)                         &trans       &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp N2
-                        &trans  &trans  &trans        &trans                &trans    &key_repeat  &key_repeat          &trans
+&trans                &trans  &trans  &trans  &kp NUMBER_3  &kp NUMBER_4                                 &trans       &trans  &trans          &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp NON_US_BACKSLASH
+&trans                &trans  &trans  &trans  &trans        &trans                                       &trans       &trans  &trans          &kp UP_ARROW      &kp GRAVE          &kp N1
+&kp LS(LEFT_COMMAND)  &trans  &trans  &trans  &trans        &kp LA(LEFT_CONTROL)                         &trans       &trans  &kp LEFT_ARROW  &kp DOWN_ARROW    &kp RIGHT_ARROW    &kp N2
+                              &trans  &trans  &trans        &trans                &trans    &key_repeat  &key_repeat          &trans
             >;
         };
 
