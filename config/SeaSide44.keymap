@@ -86,7 +86,7 @@
         MOUSE {
             bindings = <
 &trans          &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp NUMBER_5                    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9    &kp NUMBER_0    &kp MINUS        &kp EQUAL
-&trans          &kp Q         &kp S         &kp E         &kp R             &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp SEMICOLON    &kp SQT
+&trans          &kp Q         &kp W         &kp E         &kp R             &kp T                           &trans        &mkp MB1      &mkp MB2        &kp UP_ARROW    &kp SEMICOLON    &kp SQT
 &kp LEFT_SHIFT  &trans        &trans        &trans        &trans            &trans                          &trans        &kp A         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp N2
                               &trans        &trans        &kp LEFT_CONTROL  &trans        &trans    &trans  &trans                      &trans
             >;
